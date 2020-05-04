@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IndoorNavigation</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZGF4ZHVlIiwiYSI6ImNrOXNpcGl5dzE0Y2MzZnJ0OTMwaWtqdWUifQ.qtkXfj6ei8iYdND1zghqbg</string>
+</resources>
