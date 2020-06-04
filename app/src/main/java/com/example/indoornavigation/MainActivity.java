@@ -242,6 +242,7 @@ public class MainActivity extends AppCompatActivity implements BeaconConsumer {
                 if (beacons.size() > 0) {
                     Log.i(TAG, "The first beacon I see is about "+beacons.iterator().next().getDistance()+" meters away.");
                     textView.setText("The first beacon I see is about "+beacons.iterator().next().getDistance()+" meters away.");
+                    beacons.iterator().next().getBeaconTypeCode();
                 }
             }
         });

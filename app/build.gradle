@@ -20,6 +20,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
 
 }
 
@@ -41,4 +45,15 @@ dependencies {
     implementation 'org.altbeacon:android-beacon-library:2+'
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.1.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-sdk-turf:5.1.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v7:0.2.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-places-v7:0.7.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-sdk-services:4.3.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:0.8.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.8.2'
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
+
+    implementation 'com.google.android.material:material:1.0.0'
+
+
 }
